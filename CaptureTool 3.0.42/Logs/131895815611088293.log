@@ -1,0 +1,32 @@
+System.IO.IOException: A device attached to the system is not functioning.
+
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream.EndWrite(IAsyncResult asyncResult)
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at WindowsFormsApplication4.Main.OBDAnalyserSentData(Byte[] Cmd) in i:\innova\softs\simulator\OBDAnalyser_Soft_Cdc\CaptureTool\MainForm.cs:line 897
+System.IO.IOException: The I/O operation has been aborted because of either a thread exit or an application request.
+
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream.EndWrite(IAsyncResult asyncResult)
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at WindowsFormsApplication4.Main.OBDAnalyserSentData(Byte[] Cmd) in i:\innova\softs\simulator\OBDAnalyser_Soft_Cdc\CaptureTool\MainForm.cs:line 897
+System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream.EndWrite(IAsyncResult asyncResult)
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at WindowsFormsApplication4.Main.OBDAnalyserSentData(Byte[] Cmd) in i:\innova\softs\simulator\OBDAnalyser_Soft_Cdc\CaptureTool\MainForm.cs:line 897
+System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream.EndWrite(IAsyncResult asyncResult)
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at WindowsFormsApplication4.Main.OBDAnalyserSentData(Byte[] Cmd) in i:\innova\softs\simulator\OBDAnalyser_Soft_Cdc\CaptureTool\MainForm.cs:line 897
+System.IO.IOException: The port 'COM4' does not exist.
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream.EndWrite(IAsyncResult asyncResult)
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at WindowsFormsApplication4.Main.OBDAnalyserSentData(Byte[] Cmd) in i:\innova\softs\simulator\OBDAnalyser_Soft_Cdc\CaptureTool\MainForm.cs:line 897

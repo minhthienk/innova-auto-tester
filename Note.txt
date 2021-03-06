@@ -1,0 +1,27 @@
+note:
+kiểm tra nếu path sai (compare, capture bằng script)
+
+Tăng độ chính xác khi compare:
+- xóa các dấu cuối câu (/\|)|
+- Thay thế chữ đầu cho mỗi dòng
+- khoảng cách và không khoảng cách ???
+- Các dấu đầu dòng, cầ chuẩn hóa lại « . + -
+
+
+
+
+Khi get_text nên lấy đúng ảnh trong contour và nền trắng
+
+KHi so sánh 2 string => tách từng dòng, nếu dòng chỉ khác 1 kí tự đầu hoặc sau, hoặc thiếu 1 ký tự đầu hoặc sau => Pass
+
+Remove khoảng trắng rồi so sánh => nếu giống nhau => cur text = ref text ( so sánh từng dòng, current text phải có chứa khoảng trắng)
+sai khoảng trắng, dấu | cuối cùng
+G:/Google Drive/3. Coding/Auto Test Tool Project/reference/select_box.png
+
+
+Kiểm tra ký tự đầu, ký tự sau mà khonagr trắng lồng vào nhâu post_process_compared_strings
+trừ 1 pixel khi get screen
+
+bug: nếu chạy sai script => 2 màn hình khác dòng nhau => post_process_compared_strings lỗi index out of range
+
+kiểm tra sau dấu chấm có khoảng trăng hay không => standardize tất cả string

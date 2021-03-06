@@ -1,0 +1,55 @@
+loadsim('abc\\sim1.sim')
+delay(2)
+
+power(Power 2, On) => ['Power2', ]
+delay(1.51)
+
+power(Power 3, On)
+
+delay(47.62)
+
+press(Menu, 0.3) => ['Press', 'Menu', '0.3']
+delay(1.45)
+
+press(Down, 0.3)
+delay(0.35)
+
+press(Down, 0.3)
+delay(1.14)
+
+press(Menu, 0.3)
+delay(1.3)
+
+press(Enter, 0.3)
+delay(1.04)
+
+press(Down, 0.3)
+delay(0.89)
+
+press(Enter, 0.3)
+delay(2.81)
+
+press(Right Softkey, 0.3)
+delay(5.3)
+
+press(Enter, 0.3)
+delay(0.93)
+
+press(Enter, 0.3)
+delay(2.62)
+
+capture(C:\Users\ThienNguyen\Desktop\veh2.png)
+
+press(Enter, 0.3)
+delay(2.81)
+
+press(Right Softkey, 0.3)
+delay(5.3)
+
+press(Enter, 0.3)
+delay(0.93)
+
+press(Enter, 0.3)
+delay(2.62)
+
+capture(C:\Users\ThienNguyen\Desktop\veh3.png)

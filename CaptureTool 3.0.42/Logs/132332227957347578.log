@@ -1,0 +1,46 @@
+System.Configuration.ConfigurationErrorsException: Failed to save settings: The configuration file has been changed by another program. (C:\Users\ThienNguyen\AppData\Local\WindowsFormsApplication4\CaptureTool.exe_Url_3weztziv0tyrhlcpeuupbuchworgugjt\1.0.0.0\user.config) ---> System.Configuration.ConfigurationErrorsException: The configuration file has been changed by another program. (C:\Users\ThienNguyen\AppData\Local\WindowsFormsApplication4\CaptureTool.exe_Url_3weztziv0tyrhlcpeuupbuchworgugjt\1.0.0.0\user.config)
+   at System.Configuration.MgmtConfigurationRecord.SaveAs(String filename, ConfigurationSaveMode saveMode, Boolean forceUpdateAll)
+   at System.Configuration.Configuration.SaveAsImpl(String filename, ConfigurationSaveMode saveMode, Boolean forceSaveAll)
+   at System.Configuration.ClientSettingsStore.WriteSettings(String sectionName, Boolean isRoaming, IDictionary newSettings)
+   --- End of inner exception stack trace ---
+   at System.Configuration.ClientSettingsStore.WriteSettings(String sectionName, Boolean isRoaming, IDictionary newSettings)
+   at System.Configuration.LocalFileSettingsProvider.SetPropertyValues(SettingsContext context, SettingsPropertyValueCollection values)
+   at System.Configuration.SettingsBase.SaveCore()
+   at System.Configuration.SettingsBase.Save()
+   at System.Configuration.ApplicationSettingsBase.Save()
+   at WindowsFormsApplication4.Main.ToolSync_Tick(Object sender, EventArgs e) in i:\innova\softs\simulator\OBDAnalyser_Soft_Cdc\CaptureTool\MainForm.cs:line 1340
+System.IO.IOException: A device attached to the system is not functioning.
+
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream.EndWrite(IAsyncResult asyncResult)
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at WindowsFormsApplication4.Main.OBDAnalyserSentData(Byte[] Cmd) in i:\innova\softs\simulator\OBDAnalyser_Soft_Cdc\CaptureTool\MainForm.cs:line 897
+System.IO.IOException: The I/O operation has been aborted because of either a thread exit or an application request.
+
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream.EndWrite(IAsyncResult asyncResult)
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at WindowsFormsApplication4.Main.OBDAnalyserSentData(Byte[] Cmd) in i:\innova\softs\simulator\OBDAnalyser_Soft_Cdc\CaptureTool\MainForm.cs:line 897
+System.IO.IOException: A device which does not exist was specified.
+
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream.EndWrite(IAsyncResult asyncResult)
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at WindowsFormsApplication4.Main.OBDAnalyserSentData(Byte[] Cmd) in i:\innova\softs\simulator\OBDAnalyser_Soft_Cdc\CaptureTool\MainForm.cs:line 897
+System.IO.IOException: A device which does not exist was specified.
+
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream.EndWrite(IAsyncResult asyncResult)
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at WindowsFormsApplication4.Main.OBDAnalyserSentData(Byte[] Cmd) in i:\innova\softs\simulator\OBDAnalyser_Soft_Cdc\CaptureTool\MainForm.cs:line 897
+System.IO.IOException: A device which does not exist was specified.
+
+   at System.IO.Ports.InternalResources.WinIOError(Int32 errorCode, String str)
+   at System.IO.Ports.SerialStream.EndWrite(IAsyncResult asyncResult)
+   at System.IO.Ports.SerialStream.Write(Byte[] array, Int32 offset, Int32 count, Int32 timeout)
+   at System.IO.Ports.SerialPort.Write(String text)
+   at WindowsFormsApplication4.Main.OBDAnalyserSentData(Byte[] Cmd) in i:\innova\softs\simulator\OBDAnalyser_Soft_Cdc\CaptureTool\MainForm.cs:line 897
